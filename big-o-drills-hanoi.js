@@ -1,27 +1,11 @@
-
-// const input = [
-//   [3, 2, 1],
-//   [0, 0, 0],
-//   [0, 0, 0]
-// ];
-
-// function hanoi(height, rodA, rodB, rodC) {
-//   if (rodC[rodC.length - 1] === 1) {
-//     return;
-//   }
-
-
-// }
-
-
-var hanoi = function (disc, origin, aux, destination) {
+var hanoi = function (disc, origin, temp, destination) {
   if (disc > 0) {
-    hanoi(disc - 1, origin, destination, aux);
-    console.log("Moving disc " + disc + " from " + origin + " to " + destination);
-    hanoi(disc - 1, aux, origin, destination);
+    hanoi(disc - 1, origin, destination, temp);
+    console.log(`Moving disc ${disc} from ${origin} to ${destination}`);
+    hanoi(disc - 1, temp, origin, destination);
   }
 };
-hanoi(4, "Rod A", "Rod B", "Rod C");
+hanoi(4, 'Rod A', 'Rod B', 'Rod C');
 
 
 // With 5 discs, after 7 recursive calls, 4 and 5 are on Rod A and 1, 2, 3 are on 

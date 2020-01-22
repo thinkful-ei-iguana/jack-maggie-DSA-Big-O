@@ -33,10 +33,18 @@ This algorithm finds the smallest number that the input can be divided by (assum
 that it's greater than 2)
 
 13)
-1. O(n)
-2. O(n)
-3. 0(n)
-4. 0(n)
-5. 0(n)
-6. O(2^n)
+1. Sheep: O(n)
+2. PowerCalc: O(n)
+3. ReverseString: O(n)
+4. TriangularNumber: O(n)
+5. StringSplitter: O(n)
+6. Fibonacci: O(2^n) (fib)
+7. Factorial: O(n) (factorial)
+8. MazeOnePath: O(n)
+9. MazeAllPaths: O(n^2)
+10. Anagrams: O(n!)
+11. OrgChart: O(n)
+12. Binary: O(log(n))
+
+
 
