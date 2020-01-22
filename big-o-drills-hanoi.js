@@ -14,11 +14,11 @@
 // }
 
 
-var hanoi = function (disc, src, aux, dst) {
+var hanoi = function (disc, origin, aux, destination) {
   if (disc > 0) {
-    hanoi(disc - 1, src, dst, aux);
-    console.log("Move disc " + disc + " from " + src + " to " + dst);
-    hanoi(disc - 1, aux, src, dst);
+    hanoi(disc - 1, origin, destination, aux);
+    console.log("Moving disc " + disc + " from " + origin + " to " + destination);
+    hanoi(disc - 1, aux, origin, destination);
   }
 };
 hanoi(4, "Rod A", "Rod B", "Rod C");

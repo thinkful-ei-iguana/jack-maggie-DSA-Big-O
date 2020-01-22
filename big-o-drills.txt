@@ -32,4 +32,11 @@ Looking for one item in an array
 This algorithm finds the smallest number that the input can be divided by (assuming
 that it's greater than 2)
 
+13)
+1. O(n)
+2. O(n)
+3. 0(n)
+4. 0(n)
+5. 0(n)
+6. O(2^n)
 
