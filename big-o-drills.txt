@@ -1,11 +1,35 @@
 1a) O(1)
 1b) O(n)
+
 2 O(1)
+No matter the size of the input 'value',  the algorithm
+will take the same amt of time to complete determining whether the number is
+even or odd because there's no iteration needed
+
 3) O(n^2)
+This algorithm uses nested loops
+
 4) O(n)
+Performs a single set of actions looping through each element of an array
+
 5) O(n)
+Performs a single set of actions looping through each element of an array
+
 6) O(n^2)
+This algorithm uses nested loops
+
 7) O(n)
+Performs a single set of actions looping through each element of an array
+
 8) O(log(n))
+The array/input is sorted, and the search for the specified item consists of cutting
+the searched dataset in half with each step
+
 9) O(1)
+Looking for one item in an array
+
 10) O(n)
+This algorithm finds the smallest number that the input can be divided by (assuming
+that it's greater than 2)
+
+
